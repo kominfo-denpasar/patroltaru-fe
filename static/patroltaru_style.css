@@ -1,0 +1,128 @@
+@import url('~/static/fonts/PTSans.css');
+@import url('~/static/fonts/montserrat.css');
+@import url('~/static/fonts/roboto.css');
+@import url('~/static/fonts/MaterialIcons.css');
+
+::-webkit-scrollbar {
+  width: 8px;  /* remove scrollbar space */
+  height: 8px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #dcdcdc;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #afafaf;
+  transition: 2s;
+} 
+
+:root {
+  --primary: #01C0D2;
+  --accent: #029ED2;
+  --secondary: #029ED2;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.new-app-style, h1, h2 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.bg-color {
+    background-color: accent;
+}
+
+.bg-active {
+    background-color: primary;
+    color : white !important;
+}
+
+.v-list-item-content {
+    height: 100px;
+}
+
+.bg-color-header-table {
+    background: #4f4f4f;
+}
+
+.tile {
+    background: #4f4f4f;
+}
+.tile:hover {
+    background: #454545;
+}
+.tile:active {
+    background: primary;
+}
+.finedTitle {
+    font-weight: 900;
+    text-shadow: 2px 2px #000000;
+}
+
+.social-icon {
+    font-size: 21px;
+    color: white;
+}
+
+.rounded-card{
+    border-radius:50px;
+}
+
+.header-text {
+    font-size: 80px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: -4px;
+    line-height: 95%;
+}
+
+.title-text {
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: -1px;
+}
+
+.subtitle-text {
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.menu-landing-text {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.body-text {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.side-menu-text {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.blue-body-text {
+    font-size: 16px;
+    color: #1a7ad6;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.btn-outline-disable.v-btn--outlined {
+    border: thin solid #CCCCCC;
+}
+
+.light-bold-text {
+    font-weight: 600;
+}
+

@@ -111,10 +111,13 @@
           <v-flex xs12 md12>
             <v-row justify="center" align="center" style="margin-bottom: 24px;">
               <v-col cols="3"><v-img :src="logoAtr" height="150" contain></v-img></v-col>
+              <v-col cols="3"><v-img :src="logoKota" height="150" contain></v-img></v-col>
               <v-col cols="3"><v-img :src="logoKominfo" height="150" contain></v-img></v-col>
             </v-row>
             
-            <div class="white--text ">{{ address }}</div>
+            <div class="white--text">{{ address }}</div>
+            <div class="white--text font-weight-bold">Copyright &copy; {{ new Date().getFullYear() }}. Pemerintah Kota Denpasar</div>
+            <!-- <div class="white--text font-weight-bold">{{ copyright }}</div> -->
           </v-flex>
         </v-layout>   
       </v-container>
@@ -132,12 +135,14 @@ export default {
     return {
       title: process.env.title,
       address: process.env.address,
+      copyright: process.env.copyright,
       monitor: require('@/assets/img/monitor.png'),
       verify: require('@/assets/img/verify.png'),
       map: require('@/assets/img/map.png'),
       landingImg: require('@/assets/img/landing-page.png'),
       logoAtr: require('@/assets/img/logo_atr.png'),
       logoKominfo: require('@/assets/img/logo-kominfo.png'),
+      logoKota: require('@/assets/img/logo_kota.png'),
       slides: [
         require('@/assets/img/landing-page-footer-1.png'),
         require('@/assets/img/landing-page-footer-2.png'),

@@ -116,7 +116,7 @@
             </v-row>
             
             <div class="white--text">{{ address }}</div>
-            <div class="white--text font-weight-bold">Copyright &copy; {{ new Date().getFullYear() }}. Pemerintah Kota Denpasar</div>
+            <div class="white--text font-weight-bold">Copyright &copy; {{ new Date().getFullYear() }}. Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kota Denpasar</div>
             <!-- <div class="white--text font-weight-bold">{{ copyright }}</div> -->
           </v-flex>
         </v-layout>   

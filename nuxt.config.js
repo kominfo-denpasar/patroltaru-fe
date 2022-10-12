@@ -143,7 +143,7 @@ export default {
   },
 
   server: {
-        host: '192.168.17.28',
+        host: '0',
         port: '3000' // optional
   },
 

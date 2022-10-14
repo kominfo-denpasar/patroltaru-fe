@@ -111,7 +111,7 @@
         <v-btn to="/login" text class="body-text light-bold-text">
           Login
         </v-btn>
-        <v-btn elevation="0" class="primary body-text light-bold-text" style="margin-right: 16px;" rounded :href="linkTataRuang">
+        <v-btn elevation="0" class="primary body-text light-bold-text" style="margin-right: 16px;" target="_blank" rounded :href="linkTataRuang">
           Info Tata Ruang
         </v-btn>
       </v-row>

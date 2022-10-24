@@ -413,7 +413,7 @@ export default {
                 for (const key in distinctRdtr) {
                     if (Object.hasOwnProperty.call(distinctRdtr, key)) {
                         const dataRdtr = distinctRdtr[key];
-                        let color = dataRdtr.KODWAR.split(' ').map(Number);
+                        let color = dataRdtr.RGB.split(' ').map(Number);
                         
                         const shapeColor = {
                             type: "simple-fill", // autocasts as new SimpleFillSymbol()
